@@ -1,2 +1,6 @@
-server:
-  port: 8081
+spirng:
+  application:
+    name: costumer-service
+  cloud:
+    config:
+      uri: http://localhost:8081

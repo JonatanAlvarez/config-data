@@ -1,0 +1,9 @@
+spring:
+  url: ${DATABASE_URL}
+  datasource:
+    username: ${DATABASE_USERNAME}
+    password: ${DATABASE_PASSWORD}
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: update

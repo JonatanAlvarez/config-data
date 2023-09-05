@@ -1,3 +1,5 @@
+server:
+  port: 3000
 spring:
   url: ${DATABASE_URL}
   datasource:
